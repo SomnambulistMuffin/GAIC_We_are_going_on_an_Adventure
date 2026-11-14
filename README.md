@@ -9,10 +9,15 @@ can be run offline without internet connection.
 
 **SET UP**
 copy the folder and files into your directory
+
 install node.js version 22.21.1
+
 in the terminal run the following commands
+
     npm install @qvac/sdk
     npm install
 
-once the packages have installed in the folder you can just run the script in the terminal:
-  node game.js
+once the packages have installed in the folder you can just run this command in the terminal:
+
+    node game.js
+
