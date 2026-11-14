@@ -38,6 +38,36 @@ To ensure fast inference speeds and stay safely within the **1,024-token offline
 * **Node.js** (v18 or higher recommended)
 * **Internet connection** (only required on first run to download the quantized model weights)
 
+ 🎮 How to Play
+
+    Save the game code as game.js in your project directory.
+
+    Start the game from your terminal:
+    Bash
+
+    node game.js
+
+    Once the model finishes loading into memory, disconnect from the internet if you wish to run completely offline.
+
+    Select your genre (1, 2, or 3).
+
+    Read each turn's scenario and enter 1, 2, or 3 to make your choice (or type exit at any prompt to quit and unload the model cleanly).
+
+
+🛠️ Project Structure
+
+
+qvac-text-adventure/
+
+├── game.js          # Main game loop, genre menu, token windowing, and QVAC SDK calls
+
+├── package.json     # Node.js ES module configuration and @qvac/sdk dependency
+
+└── README.md        # Project documentation
+
+
+
+
 ### Setup
 
 ```bash
@@ -54,25 +84,3 @@ npm install @qvac/sdk
 
 
 
-### 🎮 How to Play
-
-    Save the game code as game.js in your project directory.
-
-    Start the game from your terminal:
-    Bash
-
-    node game.js
-
-    Once the model finishes loading into memory, disconnect from the internet if you wish to run completely offline.
-
-    Select your genre (1, 2, or 3).
-
-    Read each turn's scenario and enter 1, 2, or 3 to make your choice (or type exit at any prompt to quit and unload the model cleanly).
-
-
-###🛠️ Project Structure
-
-qvac-text-adventure/
-├── game.js          # Main game loop, genre menu, token windowing, and QVAC SDK calls
-├── package.json     # Node.js ES module configuration and @qvac/sdk dependency
-└── README.md        # Project documentation
