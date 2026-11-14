@@ -1,5 +1,4 @@
 # GAIC_We_are_going_on_an_Adventure
-# QVAC Offline Text Adventure
 
 An interactive, terminal-based text adventure game powered entirely by local AI inference using the **QVAC JavaScript SDK**. Play branching narratives across multiple genres with zero internet connection required after initial model setup.
 
@@ -7,7 +6,7 @@ An interactive, terminal-based text adventure game powered entirely by local AI 
 
 ## 📖 Game Description
 
-**QVAC Offline Text Adventure** puts you in the center of a dynamic, AI-directed story directly inside your console. At the start of each session, you choose from three distinct worlds:
+**GAIC_We_are_going_on_an_Adventure** puts you in the center of a dynamic, AI-directed story directly inside your console. At the start of each session, you choose from three distinct worlds:
 
 1. **Dark Fantasy** — Explore ancient crypts, wield forbidden magic, and survive deadly monsters.
 2. **Sci-Fi** — Navigate derelict space stations, alien anomalies, and the dangers of deep space.
